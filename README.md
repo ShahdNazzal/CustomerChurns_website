@@ -69,16 +69,4 @@ This website presents the results of a full data analytics pipeline (data cleani
 
 ---
 
----
 
-## 📁 Project Structure
-
-CustomerChurns_website/
-├── app/
-│ ├── page.tsx # Main landing page
-│ └── globals.css # Global styles
-├── components/
-│ └── TableauEmbed.tsx # Dashboard embed component
-├── public/
-├── package.json
-└── README.md
