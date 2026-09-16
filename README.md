@@ -60,17 +60,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to view it.
 
 
-CustomerChurns_website/
-├── app/
-│ ├── page.tsx # Main landing page
-│ └── globals.css # Global styles
-├── components/
-│ └── TableauEmbed.tsx # Dashboard embed component
-├── public/
-├── package.json
-└── README.md
-
-
 
 ---
 
@@ -83,3 +72,14 @@ This website presents the results of a full data analytics pipeline (data cleani
 ---
 
 ## 📁 Project Structure
+
+
+CustomerChurns_website/
+├── app/
+│ ├── page.tsx # Main landing page
+│ └── globals.css # Global styles
+├── components/
+│ └── TableauEmbed.tsx # Dashboard embed component
+├── public/
+├── package.json
+└── README.md
