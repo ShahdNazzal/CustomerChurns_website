@@ -77,8 +77,9 @@ export default function Page() {
 
       <section className="stats-section" aria-label="Project statistics"><div className="container stats-grid">{stats.map(([label, value, suffix]) => <Reveal key={label}><div className="stat-card"><span>{label}</span><strong>{value}{suffix && <small> {suffix}</small>}</strong></div></Reveal>)}</div></section>
 
-      <section className="dashboard-section section-dark" id="dashboard" aria-labelledby="dashboard-title"><div className="container"><div className="section-heading dashboard-heading"><p className="kicker">Live analysis</p><h2 id="dashboard-title">Explore the <span>Live Dashboard</span></h2><p>Interact with the report to move from high-level churn trends to individual customer signals.</p></div><div className="embed-frame" style={{ maxWidth: '1015px', margin: '0 auto' }}><iframe title="Telco Customer Churn Tableau Dashboard" src="https://public.tableau.com/views/customers_churts/Dashboard1?:showVizHome=no&:embed=true" style={{ width: '100%', height: '850px' }} /></div></div></section>
       <section className="method-section" id="methodology" aria-labelledby="method-title"><div className="container"><div className="section-heading"><p className="kicker">The approach</p><h2 id="method-title">Methodology that<br /><span>moves with the data.</span></h2></div><div className="steps">{steps.map(([number, title, body]) => <Reveal key={number}><article className="step"><span className="step-number">{number}</span><div><h3>{title}</h3><p>{body}</p></div></article></Reveal>)}</div></div></section>
+
+      <section className="dashboard-section section-dark" id="dashboard" aria-labelledby="dashboard-title"><div className="container"><div className="section-heading dashboard-heading"><p className="kicker">Live analysis</p><h2 id="dashboard-title">Explore the <span>Live Dashboard</span></h2><p>Interact with the report to move from high-level churn trends to individual customer signals.</p></div><div className="embed-frame" style={{ maxWidth: '1015px', margin: '0 auto' }}><iframe title="Telco Customer Churn Tableau Dashboard" src="https://public.tableau.com/views/customer_churn_17896551469340/CustomerProfile?:embed=y&:showVizHome=no&:toolbar=yes&:tabs=no" style={{ width: '100%', height: '850px', border: 'none' }} /></div></div></section>
 
       <section className="stack-section section-dark" aria-labelledby="stack-title"><div className="container stack-layout"><div><p className="kicker">Built with</p><h2 id="stack-title">The <span>toolkit.</span></h2></div><div className="pills">{tools.map(tool => <span key={tool}>{tool}</span>)}</div></div></section>
 
@@ -86,3 +87,61 @@ export default function Page() {
     </main>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
