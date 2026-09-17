@@ -69,4 +69,11 @@ This website presents the results of a full data analytics pipeline (data cleani
 
 ---
 
+---
+
+## 🔗 Website Live
+
+https://shahd-churn-analysis.netlify.app/
+---
+
 
