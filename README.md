@@ -73,7 +73,7 @@ This website presents the results of a full data analytics pipeline (data cleani
 
 ## 🔗 Website Live
 
-https://shahd-churn-analysis.netlify.app/
+[https://shahd-churn-analysis.netlify.app/](https://customer-churns-eta.vercel.app/)
 ---
 
 
